@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30BA04212BFD9511002E6830 /* TimeWaterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA04202BFD9511002E6830 /* TimeWaterApp.swift */; };
+		30BA04232BFD9511002E6830 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA04222BFD9511002E6830 /* Persistence.swift */; };
+		30BA04262BFD9511002E6830 /* TimeWater.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30BA04242BFD9511002E6830 /* TimeWater.xcdatamodeld */; };
+		30BA04282BFD9511002E6830 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA04272BFD9511002E6830 /* ContentView.swift */; };
+		30BA042A2BFD9513002E6830 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BA04292BFD9513002E6830 /* Assets.xcassets */; };
+		30BA042E2BFD9513002E6830 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BA042D2BFD9513002E6830 /* Preview Assets.xcassets */; };
+		30BA04382BFD9513002E6830 /* TimeWaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA04372BFD9513002E6830 /* TimeWaterTests.swift */; };
+		30BA04422BFD9513002E6830 /* TimeWaterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA04412BFD9513002E6830 /* TimeWaterUITests.swift */; };
+		30BA04442BFD9513002E6830 /* TimeWaterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BA04432BFD9513002E6830 /* TimeWaterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30BA04342BFD9513002E6830 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30BA04152BFD9511002E6830 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30BA041C2BFD9511002E6830;
+			remoteInfo = TimeWater;
+		};
+		30BA043E2BFD9513002E6830 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30BA04152BFD9511002E6830 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30BA041C2BFD9511002E6830;
+			remoteInfo = TimeWater;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30BA041D2BFD9511002E6830 /* TimeWater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeWater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30BA04202BFD9511002E6830 /* TimeWaterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeWaterApp.swift; sourceTree = "<group>"; };
+		30BA04222BFD9511002E6830 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		30BA04252BFD9511002E6830 /* TimeWater.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TimeWater.xcdatamodel; sourceTree = "<group>"; };
+		30BA04272BFD9511002E6830 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		30BA04292BFD9513002E6830 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30BA042B2BFD9513002E6830 /* TimeWater.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TimeWater.entitlements; sourceTree = "<group>"; };
+		30BA042D2BFD9513002E6830 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		30BA04332BFD9513002E6830 /* TimeWaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeWaterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30BA04372BFD9513002E6830 /* TimeWaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeWaterTests.swift; sourceTree = "<group>"; };
+		30BA043D2BFD9513002E6830 /* TimeWaterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeWaterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30BA04412BFD9513002E6830 /* TimeWaterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeWaterUITests.swift; sourceTree = "<group>"; };
+		30BA04432BFD9513002E6830 /* TimeWaterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeWaterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30BA041A2BFD9511002E6830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30BA04302BFD9513002E6830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30BA043A2BFD9513002E6830 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30BA04142BFD9511002E6830 = {
+			isa = PBXGroup;
+			children = (
+				30BA041F2BFD9511002E6830 /* TimeWater */,
+				30BA04362BFD9513002E6830 /* TimeWaterTests */,
+				30BA04402BFD9513002E6830 /* TimeWaterUITests */,
+				30BA041E2BFD9511002E6830 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30BA041E2BFD9511002E6830 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30BA041D2BFD9511002E6830 /* TimeWater.app */,
+				30BA04332BFD9513002E6830 /* TimeWaterTests.xctest */,
+				30BA043D2BFD9513002E6830 /* TimeWaterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30BA041F2BFD9511002E6830 /* TimeWater */ = {
+			isa = PBXGroup;
+			children = (
+				30BA04202BFD9511002E6830 /* TimeWaterApp.swift */,
+				30BA04222BFD9511002E6830 /* Persistence.swift */,
+				30BA04272BFD9511002E6830 /* ContentView.swift */,
+				30BA04292BFD9513002E6830 /* Assets.xcassets */,
+				30BA042B2BFD9513002E6830 /* TimeWater.entitlements */,
+				30BA04242BFD9511002E6830 /* TimeWater.xcdatamodeld */,
+				30BA042C2BFD9513002E6830 /* Preview Content */,
+			);
+			path = TimeWater;
+			sourceTree = "<group>";
+		};
+		30BA042C2BFD9513002E6830 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				30BA042D2BFD9513002E6830 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		30BA04362BFD9513002E6830 /* TimeWaterTests */ = {
+			isa = PBXGroup;
+			children = (
+				30BA04372BFD9513002E6830 /* TimeWaterTests.swift */,
+			);
+			path = TimeWaterTests;
+			sourceTree = "<group>";
+		};
+		30BA04402BFD9513002E6830 /* TimeWaterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30BA04412BFD9513002E6830 /* TimeWaterUITests.swift */,
+				30BA04432BFD9513002E6830 /* TimeWaterUITestsLaunchTests.swift */,
+			);
+			path = TimeWaterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30BA041C2BFD9511002E6830 /* TimeWater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30BA04472BFD9513002E6830 /* Build configuration list for PBXNativeTarget "TimeWater" */;
+			buildPhases = (
+				30BA04192BFD9511002E6830 /* Sources */,
+				30BA041A2BFD9511002E6830 /* Frameworks */,
+				30BA041B2BFD9511002E6830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeWater;
+			productName = TimeWater;
+			productReference = 30BA041D2BFD9511002E6830 /* TimeWater.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30BA04322BFD9513002E6830 /* TimeWaterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30BA044A2BFD9513002E6830 /* Build configuration list for PBXNativeTarget "TimeWaterTests" */;
+			buildPhases = (
+				30BA042F2BFD9513002E6830 /* Sources */,
+				30BA04302BFD9513002E6830 /* Frameworks */,
+				30BA04312BFD9513002E6830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30BA04352BFD9513002E6830 /* PBXTargetDependency */,
+			);
+			name = TimeWaterTests;
+			productName = TimeWaterTests;
+			productReference = 30BA04332BFD9513002E6830 /* TimeWaterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30BA043C2BFD9513002E6830 /* TimeWaterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30BA044D2BFD9513002E6830 /* Build configuration list for PBXNativeTarget "TimeWaterUITests" */;
+			buildPhases = (
+				30BA04392BFD9513002E6830 /* Sources */,
+				30BA043A2BFD9513002E6830 /* Frameworks */,
+				30BA043B2BFD9513002E6830 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30BA043F2BFD9513002E6830 /* PBXTargetDependency */,
+			);
+			name = TimeWaterUITests;
+			productName = TimeWaterUITests;
+			productReference = 30BA043D2BFD9513002E6830 /* TimeWaterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30BA04152BFD9511002E6830 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					30BA041C2BFD9511002E6830 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					30BA04322BFD9513002E6830 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 30BA041C2BFD9511002E6830;
+					};
+					30BA043C2BFD9513002E6830 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 30BA041C2BFD9511002E6830;
+					};
+				};
+			};
+			buildConfigurationList = 30BA04182BFD9511002E6830 /* Build configuration list for PBXProject "TimeWater" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30BA04142BFD9511002E6830;
+			productRefGroup = 30BA041E2BFD9511002E6830 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30BA041C2BFD9511002E6830 /* TimeWater */,
+				30BA04322BFD9513002E6830 /* TimeWaterTests */,
+				30BA043C2BFD9513002E6830 /* TimeWaterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30BA041B2BFD9511002E6830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30BA042E2BFD9513002E6830 /* Preview Assets.xcassets in Resources */,
+				30BA042A2BFD9513002E6830 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30BA04312BFD9513002E6830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30BA043B2BFD9513002E6830 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30BA04192BFD9511002E6830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30BA04212BFD9511002E6830 /* TimeWaterApp.swift in Sources */,
+				30BA04232BFD9511002E6830 /* Persistence.swift in Sources */,
+				30BA04282BFD9511002E6830 /* ContentView.swift in Sources */,
+				30BA04262BFD9511002E6830 /* TimeWater.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30BA042F2BFD9513002E6830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30BA04382BFD9513002E6830 /* TimeWaterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30BA04392BFD9513002E6830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30BA04422BFD9513002E6830 /* TimeWaterUITests.swift in Sources */,
+				30BA04442BFD9513002E6830 /* TimeWaterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30BA04352BFD9513002E6830 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30BA041C2BFD9511002E6830 /* TimeWater */;
+			targetProxy = 30BA04342BFD9513002E6830 /* PBXContainerItemProxy */;
+		};
+		30BA043F2BFD9513002E6830 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30BA041C2BFD9511002E6830 /* TimeWater */;
+			targetProxy = 30BA043E2BFD9513002E6830 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30BA04452BFD9513002E6830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30BA04462BFD9513002E6830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		30BA04482BFD9513002E6830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TimeWater/TimeWater.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TimeWater/Preview Content\"";
+				DEVELOPMENT_TEAM = Z4BB8U285K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = logeast.TimeWater;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30BA04492BFD9513002E6830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TimeWater/TimeWater.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TimeWater/Preview Content\"";
+				DEVELOPMENT_TEAM = Z4BB8U285K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = logeast.TimeWater;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30BA044B2BFD9513002E6830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z4BB8U285K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = logeast.TimeWaterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeWater.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TimeWater";
+			};
+			name = Debug;
+		};
+		30BA044C2BFD9513002E6830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z4BB8U285K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = logeast.TimeWaterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeWater.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TimeWater";
+			};
+			name = Release;
+		};
+		30BA044E2BFD9513002E6830 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z4BB8U285K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = logeast.TimeWaterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TimeWater;
+			};
+			name = Debug;
+		};
+		30BA044F2BFD9513002E6830 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z4BB8U285K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = logeast.TimeWaterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TimeWater;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30BA04182BFD9511002E6830 /* Build configuration list for PBXProject "TimeWater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30BA04452BFD9513002E6830 /* Debug */,
+				30BA04462BFD9513002E6830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30BA04472BFD9513002E6830 /* Build configuration list for PBXNativeTarget "TimeWater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30BA04482BFD9513002E6830 /* Debug */,
+				30BA04492BFD9513002E6830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30BA044A2BFD9513002E6830 /* Build configuration list for PBXNativeTarget "TimeWaterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30BA044B2BFD9513002E6830 /* Debug */,
+				30BA044C2BFD9513002E6830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30BA044D2BFD9513002E6830 /* Build configuration list for PBXNativeTarget "TimeWaterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30BA044E2BFD9513002E6830 /* Debug */,
+				30BA044F2BFD9513002E6830 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		30BA04242BFD9511002E6830 /* TimeWater.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				30BA04252BFD9511002E6830 /* TimeWater.xcdatamodel */,
+			);
+			currentVersion = 30BA04252BFD9511002E6830 /* TimeWater.xcdatamodel */;
+			path = TimeWater.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 30BA04152BFD9511002E6830 /* Project object */;
+}
